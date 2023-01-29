@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountingEachElementChalleng
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DetectingACycleInLinkedList", "..\DetectingACycleInLinkedList\DetectingACycleInLinkedList.csproj", "{05DE9E10-F5D7-4C04-953D-E6E4E583913C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CountingEachElement", "CountingEachElement", "{348F7139-FBD5-4750-B140-A5E96F438540}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CycleDetectionInLinkedList", "CycleDetectionInLinkedList", "{3EE98B2E-737B-4EAA-840D-BED73F600D69}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +28,10 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8BED0525-A423-41BF-BDB5-33CA1B6F4BD0} = {348F7139-FBD5-4750-B140-A5E96F438540}
+		{05DE9E10-F5D7-4C04-953D-E6E4E583913C} = {3EE98B2E-737B-4EAA-840D-BED73F600D69}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {020548CC-6694-470F-8C03-CCE80E81EC82}
